@@ -1,0 +1,482 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+  background-color: #FBF8F3;
+  position: relative;
+	font-family: sans-serif;  
+}
+
+/*.nav-link{
+	font-family: sofia;
+}*/
+
+a, .nav-link{
+  color: #000000;
+}
+
+.navbar-brand{
+  font-weight: 635;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.brand1:hover{
+	color: orange;
+	text-decoration: underline;
+}
+.nav-link:hover{
+	color: orange;
+}
+
+.brand1{
+	font-size: 30px;
+/*	animation: mymove 10s infinite;*/
+}
+
+@keyframes mymove {
+	from {color: black;}
+	to {color: orange;}
+}
+
+.col-lg-12{
+
+	text-align: center;
+	height: 200px;
+	width: 100%;
+	font-size: 80px;
+	margin-top: 50px;
+	font-weight: bold;
+}
+
+.hello{
+	margin-top: 40px;
+	font-size: 40px;
+}
+
+.cs-std{
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+.bk {
+	background: url("https://png.pngtree.com/thumb_back/fh260/background/20200808/pngtree-rocky-mountains-vector-design-image_389738.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 400px;
+	width:100%;
+	padding-bottom: 0px;
+	position: relative;
+	font-family: 'sofia',sans-serif;
+}
+.bk::before{
+	content: '';
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200808/pngtree-rocky-mountains-vector-design-image_389738.jpg");
+    	background-size: cover;
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	background-blend-mode: darken;
+    	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+.h1 {
+	text-align: center;
+	font-size: 43px;
+	color: #fff;
+	position: relative;
+	
+}
+.h1 a{
+	color: #fff;
+	position: relative;
+}
+.h2{
+	font-size: 75px;
+}
+
+h2{
+	font-family: monospace;
+	font-weight: 700;
+}
+/*
+p{
+	text-align: center;
+	color: #fff;
+	font-size: 43px;
+	position: relative;
+	
+}*/
+
+.me-page{
+	text-align: center;
+	font-size: 45px;
+}
+
+.p{
+	
+	color: black;
+	font-size: 25px;
+	border: 50px solid #FBF8F3;
+}
+@media (max-width: 601px;){
+	.img-about{
+		width: 30px;
+		height: 890px;
+	}
+	.p{
+		font-size: 10px;
+	}
+}
+
+.img-about{
+  width: 340px;
+  height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.19);
+  padding: 5px;
+}
+
+.img-div{
+	display: flex;
+	justify-content: center;
+	border: 30px solid #FBF8F3;
+}
+
+
+.ck{
+	background: url("https://png.pngtree.com/thumb_back/fh260/background/20200808/pngtree-rocky-mountains-vector-design-image_389738.jpg") no-repeat center center fixed;
+	background-size: cover;
+	height: 460px;
+	width:100%;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+.ck::before{
+	content: '';
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200808/pngtree-rocky-mountains-vector-design-image_389738.jpg");
+    	background-size: cover;
+    	position: absolute;
+    	top: 0px;
+    	right: 0px;
+    	bottom: 0px;
+    	left: 0px;
+    	background-blend-mode: darken;
+    	background-color: rgba(0,0,0,0.5);
+}
+
+a img{
+	position: relative;
+	
+}
+
+.h11{
+	color: white;
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+}
+.img-div1{
+	display: flex;
+    justify-content: center;
+}
+
+.logo{
+	margin-left: 30px;
+	height: 75px;
+	width: 100%;
+}
+@media (max-width: 700px){
+	.brand1{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.logo1{
+	border-radius: 50px;
+}
+
+
+
+.lstname{
+	color: orange;
+}
+
+.psnacet:hover{
+	color: orange;
+}
+
+.nav-link:hover{
+	border:1px solid orange;
+}
+@media (max-width: 575px){
+	.nav-link{
+		text-align: center;
+	}
+}
+.nav-link:hover{
+	border:1px solid orange;
+}
+
+
+
+@media (min-width: 600px){
+	.abt-page{
+		display: flex;
+	}
+}
+
+
+.insta{
+	background-color: #FBF8F3;
+	border-radius: 5px;
+}
+
+.pp{
+	font-size: 25px;
+}
+
+.cont-details{
+	font-size: 30px;
+	margin-left: 180px;
+	line-height: 50px;
+	text-align: justify;
+}
+
+@media (max-width: 600px){
+	.h1{
+		font-size: 20px;
+	}
+	.bk{
+		height: 300px;
+	}
+	.brand1{
+		font-size: 20px;
+	}
+	.p{
+		font-size: 18px;
+		border:30px solid #FBF8F3;
+	}
+	.img-about{
+		height: 300px;
+	}
+	.pp{
+		font-size: 18px;
+	}
+	.me-page{
+		font-size: 40px;
+	}
+	.h11{
+		font-size: 40px;
+	}
+	.nav-link{
+		font-size: 16px;
+	}
+	.cont-details{
+		margin-left: 30px;
+		margin-bottom: 20px;
+		text-align: justify;
+		font-size: 16px;
+		line-height: 30px;
+
+	}
+	.ck{
+		height: 440px;
+	}
+	.ug{
+		position: relative;
+width: 50%; /*230px*/
+height: 246px;
+top: 5px;
+background-color: #D9D9D9;
+border-radius: 10px;
+border:1px outset #D9D9D9;
+display: block;
+	}
+	.edu{
+		justify-content: center;
+		margin-bottom: 20px;
+		display: flex;
+	}
+	.edu-upper{
+		display: block;
+		flex-direction: column;
+	}
+	.flexs{
+		display: block;
+		flex-direction: column;
+	}
+	.prog-img{
+		height: 85px;
+	}
+	
+	.pro{
+		height: 300px;
+		width: 50%;
+		background-color: #D9D9D9;
+border-radius: 10px;
+border:1px outset #D9D9D9;
+	}
+
+	.pro-img{
+		height: auto;
+		width: 50%;
+	}
+
+	.pro-but{
+		margin-top: 7px;
+		color: #D9D9D9;
+		background-color: grey;
+	}
+}
+
+@media(max-width: 500px){
+	.pro{
+		position: relative;
+width: 50%; /*230px*/
+height: 266px;
+top: 5px;
+background-color: #D9D9D9;
+border-radius: 10px;
+border:1px outset #D9D9D9;
+display: block;
+	}
+	.pro-but{
+		margin-top: 20px;
+		color: #D9D9D9;
+		background-color: grey;
+	}
+	.pro-img-div{
+		margin-top: 10px;
+	}
+}
+
+
+@media (min-width: 700px){
+.pro{
+	position: relative;
+	height: 330px;
+	width: 30%;
+	border:2px inset black;
+	border-radius: 20px;
+	background-color: #D9D9D9;
+	border-radius: 10px;
+	border:1px outset #D9D9D9;
+	display: block;
+}
+
+.pro-but{
+	margin-top: 10px;
+	color: #D9D9D9;
+	background-color: grey;
+}
+}
+.lstnamee{
+	color: green;
+	margin-left: 10px;
+}
+
+.ug{
+	position:relative;
+	width: 231px;
+	height: 247px;
+	background-color: #D9D9D9;
+	margin-left: 10px;
+	border-radius: 15px;
+	border:1px inset #D9D9D9;
+}
+
+.edu-upper{
+	justify-content: center;
+	display: flex;
+}
+
+.flexs{
+	display: flex;
+	justify-content: center;
+}
+
+.prog-img{
+	height: 85px;
+}
+
+@media (max-width: 500px){
+	.pro-1{
+		height: 296px;
+	}
+	.pro-img1{
+		height: 155px;
+	}
+	.pro-but1{
+		margin-top: 0px;
+	}
+}
+
+
+@media (max-width: 600px){
+	.pro-img1{
+		height: 180px;
+		width: 80%;
+	}
+	.pro-1{
+		position: relative;
+width: 50%; /*230px*/
+height: 300px;
+top: 5px;
+background-color: #D9D9D9;
+border-radius: 10px;
+border:1px outset #D9D9D9;
+display: block;
+	}
+	.pro-but1{
+	margin-top: 20px;
+	color: #D9D9D9;
+	background-color: grey;
+}
+}
+
+@media (min-width: 700px){
+.pro-img1{
+	height: 210px;
+	width: 80%;
+}
+
+.pro-1{
+	position: relative;
+	height: 330px;
+	width: 30%;
+	border:2px inset black;
+	border-radius: 20px;
+	background-color: #D9D9D9;
+	border-radius: 10px;
+	border:1px outset #D9D9D9;
+	display: block;
+}
+.pro-but1{
+	margin-top: 10px;
+	color: #D9D9D9;
+	background-color: grey;
+}
+}
+@media (max-width: 280px){
+	.img-about{
+		width: 90%; 
+	}
+	.me-page{
+		font-size:25px; 
+	}
+	h2{
+		font-size: 20px;
+	}
+	.p{
+		font-size: 16px;
+	}
+}
+
